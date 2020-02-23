@@ -1,0 +1,22 @@
+$bg_color: #f0f0f0;
+$color: #272727;
+
+.main {
+  background-color: $bg_color;
+  font-size: calc(10px + 2vmin);
+  color: $color;
+  display: flex;
+  flex-grow: 0;
+  max-width: 100%;
+  flex-basis: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.body {
+  width: 100vw;
+  height: 100%;
+}

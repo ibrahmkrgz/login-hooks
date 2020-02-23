@@ -1,0 +1,50 @@
+.header {
+  box-shadow: 0 0 25px -5px rgba(0, 0, 0, 0.3);
+  width: 100vw;
+  text-align: center;
+  padding: 1em;
+  background: ghostwhite;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  width: 1100px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.header-link {
+  margin: 10px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.logo {
+  height: auto;
+  max-width: 80px;
+  width: 100%;
+  margin: 10px;
+}
+
+.header-helpers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logout {
+  border: none;
+  background: none;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 767px) {
+  .logo {
+    display: none;
+  }
+}

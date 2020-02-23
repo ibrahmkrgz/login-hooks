@@ -1,0 +1,49 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "prettier"],
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "plugins": ["react", "jsx-a11y", "import", "prettier", "react-hooks"],
+  "rules": {
+    "no-console": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "all",
+        "singleQuote": true,
+        "printWidth": 100
+      }
+    ],
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", "jsx"]
+      }
+    ],
+    "jsx-a11y/anchor-is-valid": 0,
+    "max-len": ["error", 120],
+    "import/prefer-default-export": "off",
+    "import/no-named-as-default": "off",
+    "no-script-url": "off",
+    "react/forbid-prop-types": "off",
+    "no-nested-ternary": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "react/no-array-index-key": "off",
+    "no-underscore-dangle": "off",
+    "no-restricted-globals": "off",
+    "import/no-named-default": "off",
+    "no-param-reassign": "off",
+    "no-shadow": "off",
+    "no-cycle": "off",
+    "no-use-before-define": 0,
+    "no-case-declarations": 0,
+    "react-hooks/exhaustive-deps": "warn",
+    "no-unused-vars": [
+      "error",
+      { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }
+    ]
+  }
+}
